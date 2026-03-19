@@ -10,22 +10,26 @@ int main(){
     {
         for (int j = 0; j < n; j++)
         {
-            if (j<i)
+            if ()
             {
-                cout<<" ";
+                /* code */
             }
-            else{
+            
+        }
+        
+        for (int k = 0; k < n-3; k++)
+        {
+            if (k<=n%(i+1))
+            {
+                cout<<"_";
+            }
+            else
+            {
                 cout<<"*";
             }
             
         }
-        for (int k = 0; k < n-i-1; k++)
-        {
-            cout<<"*";
-        }
-        
         cout<<endl;
-        
     }
     
 }
