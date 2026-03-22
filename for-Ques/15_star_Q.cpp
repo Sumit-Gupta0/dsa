@@ -10,23 +10,35 @@ int main(){
     {
         for (int j = 0; j < i*2; j++)
         {
-            cout<<" ";
+            cout<<"  ";
         }
         for (int k = 0; k < n-i; k++)
         {
-            cout<<"*";
+            cout<<"* ";
         }
         cout<<endl;
     }
-    for (int i = 1; i < n; i++)
+    // for (int i = 1; i < n; i++)
+    // {
+    //     for (int j = 0; j < (n-i-1)*2; j++)
+    //     {
+    //         cout<<" ";
+    //     }
+    //     for (int k = 0; k <= i; k++)
+    //     {
+    //         cout<<"*";
+    //     }
+    //     cout<<endl;
+    // }
+    for (int i = n-2; i >= 0; i--)
     {
-        for (int j = 0; j < (n-i-1)*2; j++)
+        for (int j = 0; j < i*2; j++)
         {
-            cout<<" ";
+            cout<<"  ";
         }
-        for (int k = 0; k <= i; k++)
+        for (int k = 0; k < n-i; k++)
         {
-            cout<<"*";
+            cout<<"* ";
         }
         cout<<endl;
     }

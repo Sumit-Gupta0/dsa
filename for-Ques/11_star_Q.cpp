@@ -2,7 +2,7 @@
 using namespace std;
 
 int main(){
-    int n = 0;
+    int n;
     cout<<"Enter a number : ";
     cin>>n;
 
@@ -18,7 +18,6 @@ int main(){
             {
                 cout<<"*";
             }
-            
         }
         for (int k = 0; k < i-1; k++)
         {
