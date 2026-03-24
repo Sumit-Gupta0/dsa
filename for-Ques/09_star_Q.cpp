@@ -17,7 +17,6 @@ int main(){
             else{
                 cout<<"*";
             }
-            
         }
         for (int k = 1; k <= i; k++)
         {
